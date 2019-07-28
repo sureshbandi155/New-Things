@@ -1,0 +1,42 @@
+.four-col-card{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+.four-col-card .inner-layer{
+
+    border:1px solid #000;
+    flex-basis: 35%;
+    -webkit-flex-basis: 35%;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    margin-left:10px;
+    text-align: center;
+}
+.four-col-card .inner-layer:first-child{
+    margin-left: 0;
+}
+.four-col-card .inner-layer .button{
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    
+}
+.four-col-card .inner-layer .text{
+    padding: 0 0 60px 0;
+}
+.four-col-card .inner-layer a{
+    background: blue;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 25px;
+}
